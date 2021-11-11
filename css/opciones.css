@@ -1,0 +1,405 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+
+/*---------------- Anchura del sitio -------------------------*/
+
+.contenedor{
+	width: 980px;
+	margin: 0 auto;
+}
+
+/* --------------- Tabla horario -------------------------------*/
+
+.titulo2 h2{
+	font-size: 1.2em;
+	color: #19215E;
+	text-align: center;
+	border-bottom: 4px solid #19215E;
+	padding-bottom: 10px; 
+
+}
+.tablahorario {     
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;        
+	text-align: center;    
+	border-collapse: collapse; 
+}
+.tablahorario th  {    
+	font-size: 12px;     
+	font-weight: normal;     
+	padding: 7px;     
+	background-color: #19215E;  /*Color del menu*/
+	background: -webkit-linear-gradient(#19215E, black); 
+	background: -o-linear-gradient(#19215E, black); 
+	background: -moz-linear-gradient(#19215E, black); 
+	background: linear-gradient(#19215E, black); 
+	border-top: 1px solid #0066FF; 
+	border-right: 1px solid #0066FF;    
+	color: #FFF;
+	text-align: center;  
+}
+.tablahorario td {    
+	padding: 5px;  
+	font-size: 10px;        
+	border-right: 1px solid #92B7FE;
+	color: #19215E;    
+	text-align: center;
+}
+
+.tablahorario table{
+	background: #d0dafd;   
+	border-collapse: collapse; 
+}
+
+.tablahorario table tr:nth-child(odd) {background-color: #d0dafd;}
+
+.tablahorario table tr:nth-child(even) {background-color: #B1C8FE;}
+
+/* --------------- Tabla Notas -------------------------------*/
+.notas {     
+	font-size: 12px;    
+	margin-top: 0; 
+	margin-bottom: 35px;    
+	text-align: center;    
+	border-collapse: collapse; 
+	overflow: hidden;
+
+}
+
+.notas th{ 
+	font-size: 12px;     
+	font-weight: normal;     
+	padding: 7px;     
+	background-color: #19215E;  /*Color del menu*/
+	background: -webkit-linear-gradient(#19215E, black); 
+	background: -o-linear-gradient(#19215E, black); 
+	background: -moz-linear-gradient(#19215E, black); 
+	background: linear-gradient(#19215E, black); 
+	border-top: 1px solid #0066FF; 
+	border-right: 1px solid #0066FF;    
+	color: #FFF;
+	text-align: center;  
+}
+
+.notas td{ 
+	padding: 5px;  
+	font-size: 10px;    
+	border-right: 1px solid #92B7FE;  
+	color: #19215E;    
+	text-align: center;
+}
+.notas table{
+	background: #d0dafd;   
+	border-collapse: collapse; 
+	border-radius: 10px;
+}
+
+.notas tr:hover td{ 
+	/*background:  #92B7FE; 
+	color: #19215E;  
+	border-radius: 5px;*/
+}
+
+.notas table tr:nth-child(odd) {background-color: #d0dafd;}
+
+.notas table tr:nth-child(even) {background-color: #B1C8FE;}
+
+.individual{
+	text-align: center;
+}
+
+.contindivi {
+	background-color: #d0dafd;  /*Color del menu #9CBDFE*/
+	background: -webkit-linear-gradient(#d0dafd, #9CBDFE); 
+	background: -o-linear-gradient(#d0dafd, #9CBDFE); 
+	background: -moz-linear-gradient(#d0dafd, #9CBDFE); 
+	background: linear-gradient(#d0dafd, #9CBDFE);  
+	color: #19215E;
+	width:305px;
+	font-size: 12px;
+	text-align: center;
+	margin: 20px;
+	border-radius: 10px;
+	padding: 8px;
+	border: 2px solid #19215E;
+	display: inline-block;
+}
+.contindivi table{
+	border-bottom: 2px solid #19215E;
+	margin-bottom: 18px;
+}
+
+.contindivi:hover{ 
+	background:  #92B7FE; 
+}
+
+.notas1{
+	display: inline-block;
+}
+
+.notas1 progress[value] {
+	width: 350px;
+	height: 20px;
+}
+/*------------------------ Nuevo*/
+.w3-light-grey{
+	color: white;
+	background-color: #19215E;  /*Color del menu*/
+	background: -webkit-linear-gradient(#19215E, black); 
+	background: -o-linear-gradient(#19215E, black); 
+	background: -moz-linear-gradient(#19215E, black); 
+	background: linear-gradient(#19215E, black); 
+}
+
+.w3-border{
+	width: 350px;
+	height: 24px;
+}
+/*------------------------ Nuevo*/
+
+.notanombre{
+	text-align: center;
+	font-size: 12px;
+
+}
+.notaenlace{
+	background-color: #19215E;  /*Color del menu*/
+	background: -webkit-linear-gradient(#19215E, black); 
+	background: -o-linear-gradient(#19215E, black); 
+	background: -moz-linear-gradient(#19215E, black); 
+	background: linear-gradient(#19215E, black); 
+	border-radius: 10px;
+	text-align: center;
+}
+
+.notaenlace h3{
+	font-size: 1em;
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+.notaenlace h3 a{
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	border: double #0066FF;
+}
+.notaenlace h3 a:hover{
+	background-color: #0066FF; 
+	background: -webkit-linear-gradient( #0066FF, #0B409C); 
+	background: -o-linear-gradient(#0066FF, #0B409C); 
+	background: -moz-linear-gradient(#0066FF, #0B409C); 
+	background: linear-gradient(#0066FF, #0B409C);
+}
+
+.notanombre h2{
+	font-size: 1.8em;
+	color: #005126;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 4px solid #005126;
+	padding-bottom: 10px;
+}
+/* -------------------------------- Botones ------------------------------*/
+.boton{
+	text-decoration: none;
+	border-style: none;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-style: italic;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #19215E;  /*Color del menu*/
+	background: -webkit-linear-gradient(#19215E, black); 
+	background: -o-linear-gradient(#19215E, black); 
+	background: -moz-linear-gradient(#19215E, black); 
+	background: linear-gradient(#19215E, black);
+	border-radius: 5px;
+}
+
+.boton:hover{
+	background-color: #0066FF; 
+	background: -webkit-linear-gradient( #0066FF, #0B409C); 
+	background: -o-linear-gradient(#0066FF, #0B409C); 
+	background: -moz-linear-gradient(#0066FF, #0B409C); 
+	background: linear-gradient(#0066FF, #0B409C);
+	border-radius: 5px;
+}
+/* --------------- Piedepagina -------------------------------*/
+.piedepagina{
+	border-top: 3px solid #0066FF;
+	background-color: #19215E;  /*Color del menu*/
+	background: -webkit-linear-gradient(#19215E, black); 
+	background: -o-linear-gradient(#19215E, black); 
+	background: -moz-linear-gradient(#19215E, black); 
+	background: linear-gradient(#19215E, black); 
+	padding: 20px 0;
+}
+.piedepagina small{
+	display: table-cell;
+	color: #FFF;
+}
+/* --------------- Subir archivo -------------------------------*/
+.FileUp {
+	display: inline-block;
+	padding: 10px;
+	color: #19215E;
+	/*border: 4px solid #0066FF;
+	background-color: #19215E;  /*Color del menu*/
+	/*background: -webkit-linear-gradient(#19215E, black); 
+	background: -o-linear-gradient(#19215E, black); 
+	background: -moz-linear-gradient(#19215E, black); 
+	background: linear-gradient(#19215E, black);
+	border-radius: 10px; */
+}
+.inputModificado {
+	clear: both;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+}
+.inputImagen {
+	/*opacity: 0.9;*/
+	padding: 5px;
+	border-radius: 4px;
+	color: #000;
+	font-weight: bold;
+	margin-top:  -2px;
+	width: 300px;
+}
+.boto label img{
+	padding-top: 5px; 
+	width: 20%;
+}
+.inputImagenOculto {
+	display: none;
+}
+
+.showfile figure{
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	margin: 0 -4px 0 0;
+	padding: 0;
+	font-size: 12px;
+}
+.showfile img{
+	width: 30%;
+}
+
+/*media Queries de CSS3*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+@media screen  and (min-width: 481px) and (max-width: 767px){
+	.contenedor{
+		width: 90%;
+	}
+	.titulo2 h2{
+		font-size: 1.1em;
+
+	}
+	.tablahorario{
+		overflow: scroll;
+		margin:0;
+	}
+	.notas {
+		overflow: scroll;
+		margin:0;
+		margin-bottom: 20px;
+	}
+	.w3-border{
+		width: 265px;
+		height: 24px;
+	}
+	.notanombre{
+		margin-bottom: 20px;
+	}
+	
+
+}
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+@media screen and (max-width: 480px){
+	.contenedor{
+		width: 100%;
+	}
+	.titulo2 h2{
+		font-size: 1em;
+	}
+	.tablahorario{
+		overflow: scroll;
+		margin:0;
+	}
+	.notas {
+		overflow: scroll;
+		margin:0;
+		margin-bottom: 20px;
+	}
+	.w3-border{
+		width: 100px;
+		height: 24px;
+	}
+	.notanombre{
+		margin-bottom: 20px;
+	}
+	.notaenlace h3{
+		display: block;
+		margin: 5px;
+		padding: 10px;
+		border-bottom: 2px solid #0066FF;
+	}
+	.notaenlace h3 a{
+		padding: 5px;
+		border: none;
+	}
+
+	.notaenlace h3 a:hover{
+		background-color: #0066FF; 
+		background: -webkit-linear-gradient( #0066FF, #0B409C); 
+		background: -o-linear-gradient(#0066FF, #0B409C); 
+		background: -moz-linear-gradient(#0066FF, #0B409C); 
+		background: linear-gradient(#0066FF, #0B409C);
+	}
+}
+
+
+/* --------------- Tabla Calendario--------------------*/
+/*.calendario h2{
+	font-size: 1.8em;
+	color: #005126;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 4px solid #005126;
+	padding-bottom: 10px; 
+
+}
+
+/* --------------- Tabla Material -------------------------------*/
+/*.material h2{
+	font-size: 1.8em;
+	color: #005126;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 4px solid #005126;
+	padding-bottom: 10px; 
+
+}
+*/

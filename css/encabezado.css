@@ -1,0 +1,316 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+
+/*---------------- Anchura del sitio -------------------------*/
+
+.contenedor{
+	width: 980px;
+	margin: 0 auto;
+}
+
+/* --------------- Encabezado imagen logotipo -------------------------------*/
+.encabezado1 img{
+	max-width: 100%;
+}
+.encabezado1{
+	background: #19215E;
+	background-image: -webkit-radial-gradient(top center, black, #19215E);
+	background-image: -moz-radial-gradient(top center, black, #19215E);
+	background-image: -ms-radial-gradient(top center, black, #19215E);
+	background-image: -o-radial-gradient(top center, black, #19215E);
+} 
+
+/* --------------- Encabezado usuario-------------------------------*/
+.encabezado{
+	/*background: #005126;*/
+	background-color: #19215E;  /*Color del menu*/
+	background: -webkit-linear-gradient(#19215E, black); 
+	background: -o-linear-gradient(#19215E, black); 
+	background: -moz-linear-gradient(#19215E, black); 
+	background: linear-gradient(#19215E, black); 
+	overflow: hidden;
+	border-top: 3px solid #0066FF;
+}
+.encabezado nav{
+	float: right;	
+
+}
+.encabezado nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.encabezado nav ul li{
+	display: inline-block;
+	margin-right: -4px;
+}
+.encabezado nav ul li a{
+	display: block;
+	color: #FFF;
+	padding: 25px;
+	border-left: 1px dotted #0066FF;
+	text-decoration: none;
+}
+.encabezado li:last-child a {
+	border-right: 1px dotted #0066FF;
+}
+.encabezado nav ul li a:hover{
+	/*background: #07793d;*/
+	color: #FFF;
+	background-color: #0066FF; 
+	background: -webkit-linear-gradient( #0066FF, #0B409C); 
+	background: -o-linear-gradient(#0066FF, #0B409C); 
+	background: -moz-linear-gradient(#0066FF, #0B409C); 
+	background: linear-gradient(#0066FF, #0B409C); 
+}
+/* --------------- Encabezado carnet -------------------------------*/
+
+
+/* --------------- Datos Usuario -------------------------------*/
+
+.datosusu{
+	overflow: hidden;
+}
+
+.datosusu h2{
+	font-size: 1.8em;
+	color: #19215E;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 4px solid #19215E;
+	padding-bottom: 10px;
+}
+
+.marco {
+	float: left;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	text-align: center;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	background: #19215E;
+	background-image: -webkit-radial-gradient(top center, black, #19215E);
+	background-image: -moz-radial-gradient(top center, black, #19215E);
+	background-image: -ms-radial-gradient(top center, black, #19215E);
+	background-image: -o-radial-gradient(top center, black, #19215E);
+
+}
+.marco h3{
+	color: #FFF;
+	padding: 10px;
+	font-size: 1em;
+}
+.marco img{
+	padding-top: 10px;
+	border-radius: 50px;
+}
+.carrera{
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 100px;
+	text-align: left;
+
+}
+.carrera h3{
+	font-size: 1em;
+	color: #19215E;
+	padding: 0; 
+	margin:0;
+}
+.carrera h4{
+	color: #19215E;
+	padding: 0; 
+	margin-top:0;
+	margin-bottom:10px;
+	margin-left: 20px;
+}
+
+/*media Queries de CSS3*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+@media screen  and (min-width: 481px) and (max-width: 767px){
+	.contenedor{
+		width: 90%;
+	}
+	.datosusu{
+		overflow: none;
+	}
+
+	.marco {
+		float: none;
+		position: none;
+		width: 50%;
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.carrera{
+		width: 80%;
+		float: none;
+		left: 0;
+		padding-bottom: 5px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.carrera h3{
+		font-size: 1em;
+	}
+
+	.datosusu h2{
+		font-size: 1.6em;
+	}
+
+	/*------------------Menu--------------------------*/
+	.encabezado {
+		height: auto;
+	}
+	.encabezado nav{
+		float: none;
+	}
+	.encabezado ul {
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+	.encabezado ul li {
+		width: 33.33%;
+		float: left;
+		position: relative;
+		padding: 0;
+		margin:0;
+		border-bottom: 1px dotted #0066FF;
+	}
+	#enca1 ul li {
+		width: 50%;
+		float: left;
+		position: relative;
+		padding: 0;
+		margin:0;
+	}
+	.encabezado nav ul li a {
+		padding: 12px; 
+		border-left: 1px dotted #0066FF;
+	}
+	.encabezado a {
+		text-align: center;
+		width: 100%;
+		font-size: 0.9em;
+		line-height: 15px;
+	}
+	.hora {
+		border-right: 1px dotted #0066FF;
+	}
+	.encabezado li:last-child a {
+		border-right: 1px dotted #0066FF;
+	}
+
+}
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+/*llllllllllllllllllllllllllllllllllllllllllllllllllllll*/
+@media screen and (max-width: 480px){
+	.contenedor{
+		width: 100%;
+	}
+	.datosusu{
+		overflow: none;
+	}
+	.marco {
+		float: none;
+		position: none;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+	}
+	.marco h3{
+		font-size: 1em;
+	}
+	.carrera{
+		width: 80%;
+		float: none;
+		left: 0;
+		padding-bottom: 5px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.encabezado1{
+		width: auto;
+		height: auto;
+	}
+
+	.carrera h3{
+		font-size: 1em;
+	}
+
+	.datosusu h2{
+		font-size: 1.4em;
+	}
+	/*------------------Menu--------------------------*/
+	.encabezado {
+		height: auto;
+	}
+	.encabezado nav{
+		height: auto;
+		float: none;
+	}
+	.encabezado ul {
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+	.encabezado ul li {
+		width: 50%;
+		float: left;
+		position: relative;
+		padding: 0;
+		margin:0;
+	}
+	#enca ul li {
+		width: 100%;
+		float: left;
+		position: relative;
+		padding: 0;
+		margin:0;
+	}
+	#enca1 ul li {
+		width: 100%;
+		float: left;
+		position: relative;
+		padding: 0;
+		margin:0;
+	}
+	.encabezado li:last-child a {
+		border-right: 1px dotted #0066FF;
+	}
+	.encabezado nav ul li a {
+		padding: 12px; 
+		border-left: none;
+		border: 1px dotted #0066FF;
+	}
+	.encabezado a {
+		text-align: center;
+		width: 100%;
+		font-size: 0.9em;
+		line-height: 15px;
+	}
+
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Colegio</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/estilos1.css">
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- include the following files -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/eskju.jquery.scrollflow.min.js"></script>
+	<!-- stop -->
+	
+</head>
+
+<body>
+
+	<!-- ____________________________________ Inicio Menu ________________________________ -->
+	<header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Menú <img src="images/nav-icon.png" alt="|||"> </a>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="index.html"><span class="icon-house"></span>Inicio</a></li>
+				<li class="submenu">
+					<a href="#"><span class="icon-rocket"></span>Colegio<span class="caret icon-arrow-down6"></span></a>
+					<ul class="children">
+						<li><a href="Informacion.html#historia">Historia<span class="icon-dot"></span></a></li>
+						<li><a href="Informacion.html#mision">Mision<span class="icon-dot"></span></a></li>
+						<li><a href="Informacion.html#vision">Vision<span class="icon-dot"></span></a></li>
+						<li><a href="Informacion.html#instalaciones">Instalaciones<span class="icon-dot"></span></a></li>
+					</ul>
+				</li>
+				<li><a href="Ubicacion.html"><span class="icon-earth"></span>Ubicacion</a></li>
+				<li><a href="Galeria.html"><span class="icon-earth"></span>Galerias</a></li>
+				<li class="submenu">
+					<a href="#"><span class="icon-rocket"></span>Niveles<span class="caret icon-arrow-down6"></span></a>
+					<ul class="children">
+						<li><a href="pre-primaria.html">Pre-primaria<span class="icon-dot"></span></a></li>
+						<li><a href="primaria.html">Primaria<span class="icon-dot"></span></a></li>
+						<li><a href="basicos.html">Basicos<span class="icon-dot"></span></a></li>
+						<li><a href="diversificado.html">Diversificado<span class="icon-dot"></span></a></li>
+					</ul>
+				</li>
+				<li><a href="login.html"><span class="icon-mail"></span>Estudiantes</a></li>
+				<li><a href="Contacto.html"><span class="icon-mail"></span>Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- ____________________________________ Fin del Menu ________________________________ -->
+
+	<div class="banner-cont">
+		<div class="container">
+			<img  src="images/bg_top_img2.jpg" >
+		</div>
+	</div>
+
+	<div class="contacto">
+		<div class="container">
+			<h2 class="scrollflow -pop -opacity">Formulario de Contacto</h2>
+			<h3 class="scrollflow -pop -opacity">¡Escribenos sera un gusto resolver cualquier duda que tengas!</h3>
+			<form action="#" method="post" class="scrollflow -pop -opacity">
+				<label for="nombre">Nombre*</label><br/>
+				<input type="text" name="nombre" placeholder="Tú nombre.." required><br/>
+				<label for="apellido">Apellido*</label><br/>
+				<input type="text" name="apellido" placeholder="Tú apellido.." required><br/>
+				<label for="email">Email*</label><br/>
+				<input type="email" name="email" placeholder="Tú email.." required><br/>
+				<label for="numero">Número</label><br/>
+				<input type="text" name="numero" placeholder="Tú numero de teléfono.."><br/>
+				<label for="subject">Mensaje*</label><br/>
+				<textarea id="subject" name="subject" placeholder="Escribe tu mensaje.." style="height:150px" required></textarea><br/>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</div>
+
+	<!--______________________________________ Footer ________________________________-->
+
+	<footer class="piedepagina" role="contentinfo">
+		<div class="container">
+			<small>Copyright © 2014 Nombre Empresa</small>
+		</div>			
+	</footer><!-- Fin de .piedepaginan -->
+
+
+	<!--______________________________________ login Start ________________________________-->
+	<div class="login">
+		<a href="login.html" title="Iniciar Sesion"><img src="images/login.png" alt="Login"></a>
+	</div>
+
+	<!--______________________________________ Redes Sociales Start ________________________________-->
+	<div class="social">
+		<a href="#" title="Vamos a Facebook"><img src="images/ico-face.jpg" alt="Facebook"></a>
+		<a href="#" title="Vamos a Youtube"><img src="images/ico-youtube.jpg" alt="Youtube"></a>
+		<a href="#" title="Vamos a Twitter"><img src="images/ico-twitter.jpg" alt="Twitter"></a>
+	</div> <!-- fin de .social -->
+	<!--______________________________________ Redes Sociales End ________________________________-->
+</body>
+</html>
